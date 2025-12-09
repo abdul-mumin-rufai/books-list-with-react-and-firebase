@@ -5,10 +5,7 @@ import LoginPage from './views/LoginPage.jsx';
 import AddBookPage from './views/AddBookPage.jsx';
 import { useSelector } from 'react-redux';
 import { selectUsers } from './store/usersSlice.js';
-import { useState } from 'react';
 
-
-const [mumin, setMumin] = useState("");
 function App() {
   const user = useSelector(selectUsers);
 
